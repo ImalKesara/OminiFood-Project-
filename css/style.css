@@ -173,7 +173,7 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
-  justify-items: center;
+  align-items: center;
   gap: 3.2rem;
 }
 
@@ -183,6 +183,25 @@ body {
   color: #333;
   font-size: 1.8rem;
   font-weight: 500;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e67e22;
+}
+.main-nav-link.last--btn:link,
+.main-nav-link.last--btn:visited {
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+}
+
+.main-nav-link.last--btn:hover,
+.main-nav-link.last--btn:active {
+  background-color: #cf711f;
 }
 
 /* **************************** */
