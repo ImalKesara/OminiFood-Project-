@@ -32,12 +32,110 @@ html {
 body {
   color: #555;
   line-height: 1;
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
 
-.test {
-  max-width: 1000px;
-  padding: 100px;
-  background-color: red;
+.hero-section {
+  background-color: #faf0e4;
+  /* background-color: #fae8ff; */
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  column-gap: 9.6rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text-box h1 {
+  font-size: 5.2rem;
+  color: #333;
+  line-height: 1.05;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1.8rem 3.2rem;
+  text-decoration: none;
+  border-radius: 1.5rem;
+  /* (all) mean all property of those under elements you can apply individual elements too like transition: backgroud-color 1s*/
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #fdf2e9;
+
+  /* thick to add border to a btn inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.1rem !important;
+}
+
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  margin-top: 7rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: -1.4rem;
+  border-radius: 50%;
+  border: 3px solid #faf0e4;
+}
+.delivered-meals p {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.delivered-text span {
+  color: #e67e22;
+  font-weight: 800;
+}
+
+.delivered-imgs img:last-child {
+  margin: 0;
 }
