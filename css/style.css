@@ -76,6 +76,24 @@ body {
   margin-right: 1.1rem !important;
 }
 
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+}
+
+.grid--cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* **************************** */
 /* GENERAL COMPORNETS REUSEBLE END*/
 /* ****************************/
@@ -206,4 +224,17 @@ body {
 
 /* **************************** */
 /* SECTION HEADER END*/
+/* ****************************/
+
+/* **************************** */
+/* SECTION how start*/
+/* ****************************/
+
+.section-how {
+  padding: 9.6rem 0;
+  background-color: red;
+}
+
+/* **************************** */
+/* SECTION how end*/
 /* ****************************/
