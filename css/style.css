@@ -235,7 +235,54 @@ body {
   /* background-color: red; */
 }
 .step-text-img img {
-  width: 50%;
+  width: 32%;
+  margin: 0 auto;
+}
+
+.step-text-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-primary,
+.heading-secondary,
+.step-tertiary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  text-transform: capitalize;
+}
+
+.subheading {
+  display: block;
+  font-size: 2rem;
+  font-family: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.step-number {
+  font-size: 9.8rem;
+  color: #555;
+  font-weight: 600;
+}
+.step-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 /* **************************** */
