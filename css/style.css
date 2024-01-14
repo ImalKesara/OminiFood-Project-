@@ -78,7 +78,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
 }
 
 .container {
@@ -235,7 +236,7 @@ body {
   /* background-color: red; */
 }
 .step-text-img img {
-  width: 32%;
+  width: 35%;
   margin: 0 auto;
 }
 
