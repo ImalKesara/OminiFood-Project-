@@ -232,7 +232,10 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: red;
+  /* background-color: red; */
+}
+.step-text-img img {
+  width: 50%;
 }
 
 /* **************************** */
