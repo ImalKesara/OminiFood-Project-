@@ -244,6 +244,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.step-text-img::before,
+.step-text-img::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.step-text-img::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+}
+
+.step-text-img::after {
+  width: 50%;
+  padding-bottom: 50%;
+  background-color: #fae5d3;
 }
 
 .heading-primary,
@@ -284,6 +309,10 @@ body {
 .step-description {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+.grid-center-v {
+  align-items: center;
 }
 
 /* **************************** */
