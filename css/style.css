@@ -431,6 +431,25 @@ strong {
   background-color: #ffd43b;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.list-icons {
+  width: 3rem;
+  height: 3rem;
+  color: #51cf66;
+}
+
 /* **************************** */
 /* SECTION section-meals end*/
 /* ****************************/
