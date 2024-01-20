@@ -403,6 +403,7 @@ body {
   /* padding: 1rem; */
   overflow: hidden;
   border-radius: 1.1rem;
+  transition: all 0.3s;
 }
 .meals-content {
   padding: 2.8rem 1.5rem;
@@ -474,7 +475,7 @@ strong {
 }
 
 .meals:hover {
-  transform: translateY(1rem);
+  transform: translateY(-0.8rem);
 }
 
 .all-recipes {
