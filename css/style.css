@@ -469,6 +469,14 @@ strong {
   border-bottom: 1px solid transparent;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.meals:hover {
+  transform: translateY(1rem);
+}
+
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
