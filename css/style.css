@@ -459,7 +459,14 @@ strong {
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;
-  padding: 2px;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: none;
+  border-bottom: 1px solid transparent;
 }
 
 .all-recipes {
