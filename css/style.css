@@ -450,6 +450,22 @@ strong {
   color: #51cf66;
 }
 
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding: 2px;
+}
+
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
 /* **************************** */
 /* SECTION section-meals end*/
 /* ****************************/
