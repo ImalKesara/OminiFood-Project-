@@ -519,6 +519,17 @@ strong {
 .testmoniolas-container {
 }
 
+.gallery {
+  display: grid;
+  /* gap: 1rem; */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+}
+
 /* **************************** */
 /* SECTION section-testmoniolas end*/
 /* ****************************/
