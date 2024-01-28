@@ -541,8 +541,12 @@ strong {
   transition: all 0.3s;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img:hover {
-  transform: rotate(1.5deg);
+  transform: scale(1.1);
 }
 
 /* **************************** */
