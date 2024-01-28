@@ -492,6 +492,8 @@ strong {
 
 .section-testmoniolas {
   background: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
 }
 
 .testmoniolas {
