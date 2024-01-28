@@ -523,6 +523,7 @@ strong {
   display: grid;
   /* gap: 1rem; */
   grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
 }
 
 .gallery-item img {
