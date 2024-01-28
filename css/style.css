@@ -494,6 +494,7 @@ strong {
   background: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
+  align-items: center;
 }
 
 .testmoniolas {
@@ -512,6 +513,7 @@ strong {
 
 .testmoniola-text {
   font-size: 1.8rem;
+  font-weight: 500;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
@@ -536,6 +538,11 @@ strong {
   width: 100%;
   display: block;
   border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: rotate(1.5deg);
 }
 
 /* **************************** */
