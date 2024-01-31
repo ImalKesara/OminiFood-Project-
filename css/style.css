@@ -649,6 +649,13 @@ strong {
   border-radius: 50%;
 }
 
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 6.8rem;
+}
+
 .feature-title {
   font-size: 2.4rem;
   color: #333;
