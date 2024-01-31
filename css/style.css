@@ -596,6 +596,70 @@ strong {
   text-align: center;
   margin-top: 4.8rem;
 }
+
+.pricing-plan-starter {
+  border: 0.2rem solid #fdf2e9;
+  justify-self: end;
+}
+
+.pricing-plan-complete {
+  background: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan-complete::after {
+  content: "Best Value";
+  position: absolute;
+  top: 5%;
+  right: -11%;
+  background: yellow;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.9rem 4.8rem;
+  transform: rotate(45deg);
+}
+
+.grid--cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 9.6rem;
+}
+.pricing-plan {
+  border-radius: 1.1rem;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.infinite,
+.Pause,
+.leaf,
+.nutri {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature ion-icon {
+  color: #cf711f;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #fdf2e9;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
 /* **************************** */
 /* SECTION section-pricing end*/
 /* ****************************/
