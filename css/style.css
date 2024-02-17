@@ -36,6 +36,7 @@ body {
   font-weight: 400;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -44,6 +45,11 @@ body {
   text-decoration: none;
   border-radius: 1.5rem;
   /* (all) mean all property of those under elements you can apply individual elements too like transition: backgroud-color 1s*/
+
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+
   transition: all 0.3s;
 }
 
@@ -702,6 +708,7 @@ strong {
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 3.2rem;
 }
 
 .cta-img-box {
@@ -715,6 +722,42 @@ strong {
   background-position: center;
 }
 
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  font-family: inherit;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  outline: none;
+  font-size: 1.8rem;
+  border: none;
+  font-family: inherit;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.9rem;
+  color: inherit;
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.btn-form {
+  background-color: #45260a;
+  color: #fdf2e9;
+}
 /* **************************** */
 /* SECTION section-cta end*/
 /* ****************************/
