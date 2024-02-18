@@ -783,6 +783,7 @@ strong {
 /* ****************************/
 .footer {
   padding: 9.6rem 0;
+  border: 1px solid #d3d3d3a8;
 }
 
 .footer-heading {
@@ -833,7 +834,26 @@ strong {
   color: #767676;
   margin-top: 1rem;
   line-height: 1.5;
+  margin-top: auto;
 }
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* justify-content: center; */
+}
+.grid-footer {
+  grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+}
+.addre {
+  margin-bottom: 9rem;
+}
+
 /* **************************** */
 /* footer end*/
 /* ****************************/
